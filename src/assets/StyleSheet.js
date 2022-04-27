@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
     fontSize: 12,
     backgroundColor: 'white',
     width: '90%',
-    top:2
+    top: 2,
   },
   searchView: {
     borderWidth: 0.5,
@@ -97,7 +97,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     bottom: 10,
     left: 2,
-    color:'black'
+    color: 'black',
   },
   productStyle: {
     flexDirection: 'row',
@@ -114,7 +114,7 @@ const styles = StyleSheet.create({
   },
   secondContainerStyle: {
     width: 370,
-    resizeMode:'center',
+    resizeMode: 'center',
     height: 215,
     margin: 10,
   },
@@ -247,9 +247,8 @@ const styles = StyleSheet.create({
     position: 'absolute',
     top: 0,
     zIndex: 1,
-
   },
-  CategoryScreenStyle:{
+  CategoryScreenStyle: {
     width: '100%',
     justifyContent: 'center',
     backgroundColor: 'white',
@@ -258,120 +257,132 @@ const styles = StyleSheet.create({
   },
   ExploreViewStyle: {
     backgroundColor: 'white',
-    marginTop:75
+    marginTop: 75,
   },
   ExploreinsiderViewStyle: {
     flexDirection: 'row',
     marginTop: 8,
     borderBottomWidth: 0.2,
     borderBottomColor: '#717079',
-    paddingVertical:6
+    paddingVertical: 6,
   },
   ExploreImageStyle: {height: 20, width: 20, margin: 15},
   ExploreTextStyle: {marginTop: 16, fontSize: 15, color: '#225e52', left: 6},
   ExploreNewImgStyle: {height: 25, width: 35, margin: 15, bottom: 6, right: 4},
   ExploreMyntraTextStyle: {
-    bottom:10,
+    bottom: 10,
     flex: 1,
     marginTop: 50,
     marginLeft: 20,
     color: '#717079',
   },
   ExploreLastinsiderViewStyle: {
-    paddingVertical:6,
+    paddingVertical: 6,
     flexDirection: 'row',
     marginTop: 8,
   },
-  springTxt:{bottom:90,left:30,fontSize:17,fontWeight:'600',color:'black'},
-  summerCategoryStyle:{bottom:90,left:30,fontSize:10,color:'#18111c'},
-  categoryBgStyle:{height:'100%',width:'100%'},
-  womenCategoryStyle:{
-    bottom:82,left:30,fontSize:10,color:'#18111c'
+  springTxt: {
+    bottom: 90,
+    left: 30,
+    fontSize: 17,
+    fontWeight: '600',
+    color: 'black',
   },
-  womenTxt:{
-    bottom:90,left:30,fontSize:17,fontWeight:'600',color:'black'
-
+  summerCategoryStyle: {bottom: 90, left: 30, fontSize: 10, color: '#18111c'},
+  categoryBgStyle: {height: '100%', width: '100%'},
+  womenCategoryStyle: {
+    bottom: 82,
+    left: 30,
+    fontSize: 10,
+    color: '#18111c',
   },
-  womenImg:{
-    height:120,
-    width:120,
-    bottom:'127%',
-    alignSelf:'flex-end',
-    right:20,
+  womenTxt: {
+    bottom: 90,
+    left: 30,
+    fontSize: 17,
+    fontWeight: '600',
+    color: 'black',
+  },
+  womenImg: {
+    height: 120,
+    width: 120,
+    bottom: '127%',
+    alignSelf: 'flex-end',
+    right: 20,
     resizeMode: 'contain',
   },
-  menImg:{
-    height:"120%",
-    width:'40%',
-    bottom:150,
-    alignSelf:'flex-end',resizeMode:'contain'
+  menImg: {
+    height: '120%',
+    width: '40%',
+    bottom: 150,
+    alignSelf: 'flex-end',
+    resizeMode: 'contain',
   },
-  menWImg:{
-    height:"95%",
-    width:'40%',
-    bottom:176,
-    alignSelf:'flex-end',resizeMode:'contain'
+  menWImg: {
+    height: '95%',
+    width: '40%',
+    bottom: 176,
+    alignSelf: 'flex-end',
+    resizeMode: 'contain',
   },
-  kidImg:{
-    height:"95%",
-    width:'40%',
-    bottom:138,
-    alignSelf:'flex-end',resizeMode:'contain'
+  kidImg: {
+    height: '95%',
+    width: '40%',
+    bottom: 138,
+    alignSelf: 'flex-end',
+    resizeMode: 'contain',
   },
-  HomeImg:{
-    height:"95%",
-    width:'40%',
-    bottom:150,
-    alignSelf:'flex-end',
-    right:10
+  HomeImg: {
+    height: '95%',
+    width: '40%',
+    bottom: 150,
+    alignSelf: 'flex-end',
+    right: 10,
   },
-  mallImg:{
-    height:"95%",
-    width:'40%',
-    bottom:145,
-    alignSelf:'flex-end',
-    resizeMode:'contain',
-    right:5
-
+  mallImg: {
+    height: '95%',
+    width: '40%',
+    bottom: 145,
+    alignSelf: 'flex-end',
+    resizeMode: 'contain',
+    right: 5,
   },
-  teensImg:{
-    height:"125%",
-    width:'50%',
-    bottom:175,
-    alignSelf:'flex-end',
-    resizeMode:'contain',
+  teensImg: {
+    height: '125%',
+    width: '50%',
+    bottom: 175,
+    alignSelf: 'flex-end',
+    resizeMode: 'contain',
   },
-  accessoriesImg:{
-    height:"100%",
-    width:'50%',
-    bottom:150,
-    alignSelf:'flex-end',
-    resizeMode:'contain'
+  accessoriesImg: {
+    height: '100%',
+    width: '50%',
+    bottom: 150,
+    alignSelf: 'flex-end',
+    resizeMode: 'contain',
   },
-  plusSizeImg:{
-    height:"140%",
-    width:'50%',
-    bottom:150,
-    alignSelf:'flex-end',
-    resizeMode:'contain'
+  plusSizeImg: {
+    height: '140%',
+    width: '50%',
+    bottom: 150,
+    alignSelf: 'flex-end',
+    resizeMode: 'contain',
   },
-  themeImg:{
-    height:"120%",
-    width:'50%',
-    bottom:170,
-    alignSelf:'flex-end',
-    resizeMode:'contain',
-    left:20
-
+  themeImg: {
+    height: '120%',
+    width: '50%',
+    bottom: 170,
+    alignSelf: 'flex-end',
+    resizeMode: 'contain',
+    left: 20,
   },
-  petImg:{
-    height:"90%",
-    width:'50%',
-    bottom:140,
-    alignSelf:'flex-end',
-    resizeMode:'contain'
+  petImg: {
+    height: '90%',
+    width: '50%',
+    bottom: 140,
+    alignSelf: 'flex-end',
+    resizeMode: 'contain',
   },
-  
 });
 
 export default styles;
