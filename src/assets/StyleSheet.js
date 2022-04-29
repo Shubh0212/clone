@@ -133,6 +133,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
     fontSize: 13,
     marginTop: 20,
+    color:'black'
   },
   shoeStyle: {
     height: 140,
@@ -306,7 +307,7 @@ const styles = StyleSheet.create({
   womenImg: {
     height: 120,
     width: 120,
-    bottom: '127%',
+    bottom: '120%',
     alignSelf: 'flex-end',
     right: 20,
     resizeMode: 'contain',

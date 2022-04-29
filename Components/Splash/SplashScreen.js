@@ -3,7 +3,7 @@ import React from 'react'
 
 const SplashScreen = ({navigation}) => {
     setTimeout(() => {
-         navigation.replace('Drawer')
+         navigation.replace('Login')
     }, 1000);
   return (
     <SafeAreaView style={Splash.main}>

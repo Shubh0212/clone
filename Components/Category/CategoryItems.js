@@ -20,9 +20,7 @@ export default function CategoryItems() {
     <Text style={styles.womenTxt}>WOMEN</Text>
     
     <Text style={styles.womenCategoryStyle}>Kurtas & Suits, Tops & Tees, Dresses, Fo...</Text>
-    <View>
-      <Image source={require('../../src/assets/Images/women.png')} style={styles.womenImg}/>
-    </View>
+      <Image source={require('../../src/assets/Images/women.png')} style={styles.womenImg}/> 
   </View>
 
   <View style={{height: 130,borderTopWidth:3,borderTopColor:'white'}}>
@@ -30,9 +28,7 @@ export default function CategoryItems() {
     <Text style={styles.womenTxt}>MEN</Text>
     
     <Text style={styles.womenCategoryStyle}>T-SHirts, Shirts, Jeans, Shoes, Accessor...</Text>
-    <View>
       <Image source={require('../../src/assets/Images/men.png')} style={styles.menImg}/>
-    </View>
   </View>
 
   <View style={{height: 130,borderTopWidth:3,borderTopColor:'white'}}>

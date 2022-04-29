@@ -4,12 +4,15 @@ import {
   Text,
   SafeAreaView,
   ScrollView,
+  Image,
+  TouchableOpacity
 } from 'react-native';
 import HomeScreenUpperView from '../HomeScreenUpperView';
 import ItemSlider from '../ItemSlider';
 import HomeScreenSecondadView from '../HomeScreenSecondadView';
 import IntrestedItemfile from '../IntrestedItemfile';
 import styles from '../../src/assets/StyleSheet';
+import HomeScreenPick from './HomeScreenPick';
 
 export function HomeScreen({navigation}) {
     return (
@@ -21,6 +24,7 @@ export function HomeScreen({navigation}) {
           <View style={{flex:1}}>
           <IntrestedItemfile/>
           </View>
+          <HomeScreenPick/>
         </ScrollView>
       </SafeAreaView>
     );

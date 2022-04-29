@@ -13,6 +13,7 @@ import profile from './ProfileStyle';
 import ProfileHeaderTwo from './ProfileHeaderTwo';
 import ProfileHeaderThree from './ProfileHeaderThree';
 import ProfileHeaderFour from './ProfileHeaderFour';
+import ProfileFIve from './ProfileFIve';
 
 export function ProfileScreen({navigation}) {
   return (
@@ -25,17 +26,7 @@ export function ProfileScreen({navigation}) {
         <ProfileHeaderTwo/>
         <ProfileHeaderThree/>
         <ProfileHeaderFour/>
-        <TouchableOpacity style={{padding:10,borderWidth:1,margin:25,justifyContent:'center',alignItems:'center',borderColor:'red'}}>
-
-          <Text style={{color:'red'}}>LOG OUT</Text>
-
-        </TouchableOpacity>
-
-        <View style={{padding:30,margin:25,justifyContent:'center',alignItems:'center'}}>
-
-          <Text style={{color:'grey',fontSize:12,bottom:30}}>APP VERSION 4.2202.2</Text>
-
-        </View>
+        <ProfileFIve/>
       </ScrollView>
     </View>
   );

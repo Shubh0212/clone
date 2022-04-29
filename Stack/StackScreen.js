@@ -8,6 +8,8 @@ import Notification from '../Components/Notification';
 import Wishlist from '../Components/Wishlist';
 import ShoppingBag from '../Components/ShoppingBag';
 import StudioScreen from '../Components/Studio/StudioScreen';
+import TopPicks from '../Components/Home/TopPicks';
+import ItemView from '../Components/Home/ItemView';
 
 
 
@@ -21,6 +23,8 @@ export function HomeStackScreen({navigation}) {
       <HomeStack.Screen name="Notification" component={Notification} />
       <HomeStack.Screen name="Wish" component={Wishlist} />
       <HomeStack.Screen name="Bag" component={ShoppingBag} />
+      <HomeStack.Screen name="TopPicks" component={TopPicks} />
+      <HomeStack.Screen name="ItemView" component={ItemView} />
     </HomeStack.Navigator>
   );
 }

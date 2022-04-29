@@ -1,4 +1,4 @@
-import { View, Text, ScrollView, StyleSheet, Image } from 'react-native'
+import { View, Text, ScrollView, StyleSheet, Image ,TouchableOpacity} from 'react-native'
 import React from 'react'
 import styles from '../src/assets/StyleSheet';
 
@@ -12,7 +12,7 @@ export default function ItemSlider() {
             <ScrollView
               horizontal={true}
               showsHorizontalScrollIndicator={false}>
-              <View style={styles.viewedItem}>
+              <TouchableOpacity style={styles.viewedItem}>
                 <Image
                   source={require('../src/assets/shoe.jpg')}
                   style={styles.shoeStyle}
@@ -31,9 +31,9 @@ export default function ItemSlider() {
                     <Text style={{color: 'red', fontSize: 12}}>52% off</Text>
                   </View>
                 </View>
-              </View>
+              </TouchableOpacity>
 
-              <View style={styles.viewedItem}>
+              <TouchableOpacity style={styles.viewedItem}>
                 <Image
                   source={require('../src/assets/watch.jpeg')}
                   style={styles.shoeStyle}
@@ -52,9 +52,9 @@ export default function ItemSlider() {
                     <Text style={{color: 'red', fontSize: 12}}>60% off</Text>
                   </View>
                 </View>
-              </View>
+              </TouchableOpacity>
 
-              <View style={styles.viewedItem}>
+              <TouchableOpacity style={styles.viewedItem}>
                 <Image
                   source={require('../src/assets/pant.jpeg')}
                   style={styles.shoeStyle}
@@ -73,9 +73,9 @@ export default function ItemSlider() {
                     <Text style={{color: 'red', fontSize: 12}}>45% off</Text>
                   </View>
                 </View>
-              </View>
+              </TouchableOpacity>
 
-              <View style={styles.viewedItem}>
+              <TouchableOpacity style={styles.viewedItem}>
                 <Image
                   source={require('../src/assets/woodland.jpeg')}
                   style={styles.shoeStyle}
@@ -94,9 +94,9 @@ export default function ItemSlider() {
                     <Text style={{color: 'red', fontSize: 12}}>15% off</Text>
                   </View>
                 </View>
-              </View>
+              </TouchableOpacity>
 
-              <View style={styles.viewedItem}>
+              <TouchableOpacity style={styles.viewedItem}>
                 <Image
                   source={require('../src/assets/wrogn.jpeg')}
                   style={styles.shoeStyle}
@@ -115,7 +115,7 @@ export default function ItemSlider() {
                     <Text style={{color: 'red', fontSize: 12}}>40% off</Text>
                   </View>
                 </View>
-              </View>
+              </TouchableOpacity>
             </ScrollView>
           </View>
         </View>
