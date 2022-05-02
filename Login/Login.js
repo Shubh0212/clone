@@ -56,7 +56,7 @@ export default function Login({navigation}) {
       setcheckvalid(false);
       setEmail('');
       setPassword('');
-      navigation.navigate('Drawer');
+      navigation.replace('TNav');
     }
   };
 

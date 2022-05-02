@@ -1,6 +1,5 @@
 import React from 'react'
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
-import { HomeScreen } from '../Components/Home/HomeScreen';
 import { CategoryScreen } from '../Components/Category/Category';
 import ExploreScreen from '../Components/Explore/ExploreScreen'
 import { ProfileScreen } from '../Components/Profile/Profile';
@@ -10,6 +9,7 @@ import ShoppingBag from '../Components/ShoppingBag';
 import StudioScreen from '../Components/Studio/StudioScreen';
 import TopPicks from '../Components/Home/TopPicks';
 import ItemView from '../Components/Home/ItemView';
+import DrawerNav from '../Drawer/DrawerNav';
 
 
 
@@ -19,7 +19,7 @@ const HomeStack = createNativeStackNavigator();
 export function HomeStackScreen({navigation}) {
   return (
     <HomeStack.Navigator screenOptions={{headerShown: false}}>
-      <HomeStack.Screen name="HomeScreen" component={HomeScreen} />
+      <HomeStack.Screen name="Drawer" component={DrawerNav} />
       <HomeStack.Screen name="Notification" component={Notification} />
       <HomeStack.Screen name="Wish" component={Wishlist} />
       <HomeStack.Screen name="Bag" component={ShoppingBag} />

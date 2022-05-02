@@ -35,7 +35,7 @@ export default function Notification({navigation}) {
 const Header = props => {
     return (
       <SafeAreaView style={{marginHorizontal: 10, marginTop: 5}}>
-        <Text style={{fontSize: 25, alignSelf: 'center'}}>{props.Header}</Text>
+        <Text style={{fontSize: 25, alignSelf: 'center',color:'black'}}>{props.Header}</Text>
       </SafeAreaView>
     );
   };

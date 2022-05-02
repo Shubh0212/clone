@@ -1,8 +1,7 @@
-import { View, Text } from 'react-native'
 import React from 'react'
-import TNav from '../TabNav/TNav';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import DrawerList from '../src/DrawerList';
+import { HomeScreen } from '../Components/Home/HomeScreen';
 
 const Drawer=createDrawerNavigator();
 
@@ -13,7 +12,7 @@ export default function DrawerNav(){
       drawerType:'front'
     }}
     drawerContent={()=><DrawerList/>}>
-      <Drawer.Screen name='Tnav' component={TNav} />
+      <Drawer.Screen name='Home' component={HomeScreen} />
       </Drawer.Navigator>
     
   )

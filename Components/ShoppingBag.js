@@ -16,7 +16,7 @@ export default function ShoppingBag({navigation}) {
             style={styles.menustyle}
           />
         </TouchableOpacity>
-        <Text style={{marginLeft: 10, marginTop: 12}}>SHOPPING BAG</Text>
+        <Text style={{marginLeft: 10, marginTop: 12,color:'black'}}>SHOPPING BAG</Text>
         <TouchableOpacity
           onPress={() => {
             navigation.navigate('Wish');
@@ -32,7 +32,7 @@ export default function ShoppingBag({navigation}) {
           source={require('../src/assets/empty_bag.gif')}
           style={{height: 100, width: 100}}
         />
-        <Text style={{marginBottom: 5, fontSize: 20, marginTop: 30}}>
+        <Text style={{marginBottom: 5, fontSize: 20, marginTop: 30,color:'black'}}>
           𝐇𝐞𝐲, 𝐢𝐭 𝐟𝐞𝐞𝐥𝐬 𝐬𝐨 𝐥𝐢𝐠𝐡𝐭!
         </Text>
         <Text style={styles.notifyText}>

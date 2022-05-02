@@ -17,7 +17,7 @@ export default function Wishlist({navigation}) {
         />
       </TouchableOpacity>
       <View style={{flexDirection: 'column'}}>
-        <Text style={{marginLeft: 10}}>𝐖𝐢𝐬𝐡𝐥𝐢𝐬𝐭</Text>
+        <Text style={{marginLeft: 10,color:'black'}}>𝐖𝐢𝐬𝐡𝐥𝐢𝐬𝐭</Text>
         <Text style={{fontSize: 10, marginLeft: 15, color: 'grey'}}>
           0 items
         </Text>

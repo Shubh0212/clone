@@ -33,6 +33,7 @@ const styles = StyleSheet.create({
   becomeText: {
     fontSize: 10,
     marginTop: 6,
+    color:'black'
   },
   insiderText: {
     fontSize: 12,
