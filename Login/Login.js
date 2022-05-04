@@ -11,6 +11,7 @@ import React, {useState} from 'react';
 import {useNavigation} from '@react-navigation/native';
 import eye from '../src/assets/Images/eye.png';
 import hidden from '../src/assets/Images/hidden.png';
+import { useDispatch, useSelector } from 'react-redux';
 
 export default function Login({navigation}) {
   const [email, setEmail] = useState('');
@@ -20,7 +21,7 @@ export default function Login({navigation}) {
   const [image, setImage] = useState(false);
   const [password, setPassword] = useState('');
   const [validpass, setvalidPass] = useState('');
-
+const dispatch = useDispatch();
   const handleValidEmail = val => {
     let reg = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w\w+)+$/;
 
@@ -58,6 +59,7 @@ export default function Login({navigation}) {
       setPassword('');
       navigation.replace('TNav');
     }
+    dispatch({type:'LOGIN' , payload:{email:email , password:password}})
   };
 
   const changeimg = () => {

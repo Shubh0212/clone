@@ -13,8 +13,12 @@ import HomeScreenSecondadView from '../HomeScreenSecondadView';
 import IntrestedItemfile from '../IntrestedItemfile';
 import styles from '../../src/assets/StyleSheet';
 import HomeScreenPick from './HomeScreenPick';
-
+import { useSelector } from 'react-redux';
+import store from '../../src/Reducer/store';
 export function HomeScreen({navigation}) {
+
+  const data = useSelector( store => store.loginReducer)
+  // console.log(data)
     return (
       <SafeAreaView style={styles.homeScreenSafeAreaView}>
         <HomeScreenUpperView navigation={navigation}/>

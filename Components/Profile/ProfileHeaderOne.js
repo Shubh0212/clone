@@ -3,8 +3,10 @@ import React from 'react';
 import profile from './ProfileStyle';
 import {useNavigation} from '@react-navigation/native';
 import styles from '../../src/assets/StyleSheet';
-
+import { useSelector } from 'react-redux';
 export default function ProfileHeaderOne() {
+  const data = useSelector(store => store.loginReducer)
+  const {email , password} = data
   const navigation = useNavigation();
   return (
     <View style={{flex: 1}}>
@@ -26,7 +28,7 @@ export default function ProfileHeaderOne() {
               source={require('../../src/assets/Images/crown.png')}
               style={profile.crownImg}
             />
-            <Text style={profile.crownTxt}>Become an Insider!</Text>
+            <Text style={profile.crownTxt}>Email:{email}</Text>
           </View>
         </View>
       </View>

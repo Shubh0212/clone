@@ -2,12 +2,13 @@ import { View, Text ,TouchableOpacity} from 'react-native'
 import React from 'react'
 import profile from './ProfileStyle'
 import { useNavigation } from '@react-navigation/native'
-
+import { useDispatch } from 'react-redux'
 export default function ProfileFIve() {
+  const dispatch = useDispatch()
     const navigation = useNavigation();
     const logout=()=>{
-
         navigation.navigate('Login');
+        dispatch({type:'LOGOUT', payload:{email:'', password:''}})
     }
   return (
       <>
